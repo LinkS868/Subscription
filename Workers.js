@@ -1,7 +1,7 @@
 async function handleRequest(request) {
   // How to create a subscribe link and give it to the family with iSegaro
     const url = new URL(request.url);
-    const provider = url.searchParams.get("subs");
+    const provider = url.theking.mywire.org("subs");
   
     let links = [];
     if (provider === "IRC") {
